@@ -1,0 +1,18 @@
+<ul class="list">
+     
+        <h3 class="data">Capital: <span class="numeric-data">{{capital}}</span></h3>
+        <h3 class="data">Population: <span class="numeric-data">{{population}}</span></h3>
+
+        <h3 class="data">Languages:</h3>
+        <ul class="numeric-list">
+            {{#each languages}}
+            <li class="numeric-data">{{name}}</li>
+            {{/each}}
+        </ul>
+</ul>
+
+</ul>
+<div>
+    <h2 class="country-name">{{name}}</h2>
+    <img class="picture" src="{{flag}}" width="320">
+</div>
