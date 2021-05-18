@@ -5,6 +5,7 @@ import { makeMarkup, renderError } from './markup.js';
 const refs = {
   input: document.querySelector('input'),
   container: document.querySelector('.container'),
+  country: document.querySelector('.country-name'),
 };
 
 refs.input.addEventListener(
@@ -16,4 +17,5 @@ refs.input.addEventListener(
     fetchCountries(inputValue).then(makeMarkup).catch(renderError);
   }, 500),
 );
+
 export default refs;

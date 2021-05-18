@@ -48,12 +48,13 @@ input:focus {
 .list {
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0;
   display: block;
 }
 
 .country-list {
   text-align: center;
-  list-style: square;
+  // list-style: square;
   font-size: 20px;
   font-weight: 500;
   color: rgb(11, 63, 139);
